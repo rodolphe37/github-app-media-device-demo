@@ -76,3 +76,23 @@ button.button-landscape.btn.btn-secondary {
   display: flex;
   padding-right: 41px;
 }
+
+.conditional {
+  display: inherit;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width:870px) {
+  .conditional {
+    display: none;
+  }
+  .mobile {
+    display: inherit;
+    max-width: 82%;
+    height: 700px !important;
+    margin-top: -21px;
+    padding-top: 25px;
+  }
+}
