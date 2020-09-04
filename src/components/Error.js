@@ -10,7 +10,7 @@ const Error = () => {
       </div>
 
       <div className="conditional-text">
-        <h1>Oups... La définition de votre écran ne supporte pas la taille d'affichage minimum des jeux.</h1>
+        <h1>Oups... La définition de votre écran ne supporte pas la taille d'affichage minimum.</h1>
         <h2 style={{ color: 'blue' }}>Ce site est conçu pour être visionné sur un ordinateur</h2>
         <h3 className="alert" style={{ color: 'orangered' }}>
           "veuillez afficher cette page sur un écran plus grand...
